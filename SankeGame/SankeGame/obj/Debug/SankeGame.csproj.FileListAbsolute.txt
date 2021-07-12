@@ -1,0 +1,10 @@
+C:\Users\Lenovo\source\repos\SankeGame\SankeGame\obj\Debug\SankeGame.csproj.AssemblyReference.cache
+C:\Users\Lenovo\source\repos\SankeGame\SankeGame\obj\Debug\SankeGame.Form1.resources
+C:\Users\Lenovo\source\repos\SankeGame\SankeGame\obj\Debug\SankeGame.Properties.Resources.resources
+C:\Users\Lenovo\source\repos\SankeGame\SankeGame\obj\Debug\SankeGame.csproj.GenerateResource.cache
+C:\Users\Lenovo\source\repos\SankeGame\SankeGame\obj\Debug\SankeGame.csproj.CoreCompileInputs.cache
+C:\Users\Lenovo\source\repos\SankeGame\SankeGame\bin\Debug\SankeGame.exe.config
+C:\Users\Lenovo\source\repos\SankeGame\SankeGame\bin\Debug\SankeGame.exe
+C:\Users\Lenovo\source\repos\SankeGame\SankeGame\bin\Debug\SankeGame.pdb
+C:\Users\Lenovo\source\repos\SankeGame\SankeGame\obj\Debug\SankeGame.exe
+C:\Users\Lenovo\source\repos\SankeGame\SankeGame\obj\Debug\SankeGame.pdb
