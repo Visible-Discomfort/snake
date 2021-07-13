@@ -38,7 +38,17 @@ namespace SankeGame
             {
                 Head.Top += SnakeSpeed;
                 Body.Left = Head.Left;
-                Body.Top = (Head.Top - 20);
+                Body.Top -= (Head.Top - 20);
+
+                
+
+
+                if (score >= 1)
+                {
+                    Body.Height = score * 20;
+                    Body.Width = 20;
+
+                }
 
             }
             if (Goup == true)
@@ -46,7 +56,11 @@ namespace SankeGame
                 Head.Top -= SnakeSpeed;
                 Body.Left = Head.Left;
                 Body.Top = (Head.Top + 20);
-
+                if (score >= 1)
+                {
+                    Body.Height = score * 20;
+                    Body.Width = 20;
+                }
 
 
             }
@@ -55,18 +69,25 @@ namespace SankeGame
                 Head.Left -= SnakeSpeed;
                 Body.Top = Head.Top;
                 Body.Left = (Head.Left + 20);
-                
+                if (score >= 1)
+                {
+                    Body.Width = score * 20;
+                    Body.Height = 20;
+                }
             }
             if (Goright == true)
             {
                 Head.Left += SnakeSpeed;
                 Body.Top = Head.Top;
                 Body.Left = (Head.Left - 20);
+                if (Body.Bounds.IntersectsWith(Head.Bounds))
+                {
+                    Body.Left -= 20;
+                }
                 if (score >= 1)
                 {
-                    Body.Width = Body.Height;
-                    
-
+                    Body.Width = score * 20;
+                    Body.Height = 20;
                 }
 
             }
